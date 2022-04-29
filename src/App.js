@@ -17,14 +17,14 @@ export default function App() {
     <div>
       <button
         onClick={addItem}
-        className="border border-gray-500 px-2 rounded-lg mt-2 ml-2 hover:bg-gray-200 duration-100"
+        className="border border-gray-900 px-2 rounded-lg mt-2 ml-2 hover:bg-gray-200 duration-100"
       >
         Add items
       </button>
       <ul>
         {items.map(item => {
-          <li>
-            <button className='border border-gray-500'>remove</button>
+          ;<li>
+            <button className="border border-gray-500">remove</button>
             <label htmlFor={items.value}></label>
           </li>
         })}
